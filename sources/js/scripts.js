@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+	//$("#container").load('ejemplo1.html');
+	
+	$.ajax({
+		url: "./sources/catalogo.json", // path to file
+		dataType: 'json', // type of file (text, json, xml, etc)
+		success: function(data) { // callback for successful completion
+		  $("#container").html(data);
+		},
+		error: function() { // callback if there's an error
+		  alert("error");
+		}
+	});   
+
+   /*$.getJSON('sources/catalogo.json', function (data) {
+		$("#container").html(data);
+		console.log(data);	
+	}); */
+
     jQuery(".switch_price_prod").click(function () {
         jQuery("[js-price-value]").html(jQuery(this).attr("data-price_label"));
         jQuery("[js-license-type]").val(jQuery(this).attr("data-type"));

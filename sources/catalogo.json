@@ -1,158 +1,167 @@
 {
-    "miapp": {
-        "id": "1",
-		"nombre":"Kerosene",
-		"imagen":"./sources/images/Oildrop.png",
-        "ubicacion": "ubicacion",
+	"miapp": {
+		"id": "1",
+		"nombre": "Kerosene",
+		"imagen": "./sources/images/Oildrop.png",
+		"ubicacion": "ubicacion",
 		"catalogo": {
-			"hombres": [
-                {
-				"id": "1", 
-				"name": "Playeras para Hombre", 
+			"hombres": [{
+				"id": "1",
+				"name": "Playeras para Hombre",
 				"onclick": "verPlayerasHombre()",
-				"playeras": [
-					{
-						"id": "1",
-						"nombre":"Playera Meme",
-						"color":"b,a,n,r",
-						"presio":"150.00",
-						"talla":"ch,m,g,xl",
-						"imagen":"./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
-						"dispo":"s",
-						"onclick": "detallePayera()"
-					},{
-						"id": "2", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "3", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					}
-				]
-                }
-            ],
-			"mujeres": [
-                {
-				"id": "New", 
-				"name": "name", 
-				"onclick": "CreateNewDoc()",
-				"playeras": [
-					{
-						"id": "1",
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "2", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "3", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					}
-				]
-                }
-            ],
-			"ninos": [
-                {
-				"id": "New", 
-				"name": "name", 
-				"onclick": "CreateNewDoc()",
-				"playeras": [
-					{
-						"id": "1",
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "2", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "3", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					}
-				]
-                }
-            ],
-			"parejas": [
-                {
-				"id": "New", 
-				"name": "name", 
-				"onclick": "CreateNewDoc()",
-				"playeras": [
-					{
-						"id": "1",
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "2", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					},{
-						"id": "3", 
-						"nombre":"",
-						"color":"",
-						"presio":"",
-						"talla":"",
-						"imagen":"",
-						"dispo":"",
-						"onclick": "detallePayera()"
-					}
-				]
-                }
-            ]
-		}
-    }
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "Playera Meme",
+					"color": "b,a,n,r",
+					"presio": "150.00",
+					"talla": "ch,m,g,xl",
+					"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+					"dispo": "s",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}],
+			"mujeres": [{
+				"id": "1",
+				"name": "Playeras para Hombre",
+				"onclick": "verPlayerasHombre()",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}],
+			"ninos": [{
+				"id": "1",
+				"name": "Playeras para Hombre",
+				"onclick": "verPlayerasHombre()",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}],
+			"parejas": [{
+				"id": "1",
+				"name": "Playeras para Hombre",
+				"onclick": "verPlayerasHombre()",
+				"imagen": "./sources/images/hombres/2018-05-08-PHOTO-00063816.jpg",
+				"playeras": [{
+					"id": "1",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "2",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}, {
+					"id": "3",
+					"nombre": "",
+					"color": "",
+					"presio": "",
+					"talla": "",
+					"imagen": "",
+					"dispo": "",
+					"onclick": "detallePayera()"
+				}]
+			}]
+		},
+		"popular": [{
+				"id": "3",
+				"nombre": "",
+				"color": "",
+				"presio": "",
+				"talla": "",
+				"imagen": "",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			},
+			{
+				"id": "3",
+				"nombre": "",
+				"color": "",
+				"presio": "",
+				"talla": "",
+				"imagen": "",
+				"dispo": "",
+				"onclick": "detallePayera()"
+			}
+		]
+	}
 }
