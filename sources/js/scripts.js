@@ -1,21 +1,29 @@
 $(document).ready(function () {
+    var url ="./sources/catalogo.json";
 
 	//$("#container").load('ejemplo1.html');
-	
-	$.ajax({
-		url: "./sources/catalogo.json", // path to file
-		dataType: 'json', // type of file (text, json, xml, etc)
-		success: function(data) { // callback for successful completion
-		  $("#container").html(data);
-		},
-		error: function() { // callback if there's an error
-		  alert("error");
-		}
-	});   
 
-   /*$.getJSON('sources/catalogo.json', function (data) {
-		$("#container").html(data);
-		console.log(data);	
+    try{
+    	$.ajax({
+            url: url, // path to file
+            type: "GET",
+            async: true,
+            contentType: "application/json; charset=utf-8",
+    		dataType: "json", // type of file (text, json, xml, etc)
+    		success: function(data) { // callback for successful completion
+                $("#container").html(JSON.stringify(data));
+    		},
+    		error: function() { // callback if there's an error
+    		  alert("error");
+    		}
+    	});   
+     } catch ( e ) {
+        console.log("ERROR: "+e);
+     }
+
+   /*$.getJSON(url, function (data) {
+        alert(data.miapp.id);
+		$("#container").html(data.miapp.id);	
 	}); */
 
     jQuery(".switch_price_prod").click(function () {
